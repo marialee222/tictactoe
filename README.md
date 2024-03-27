@@ -42,4 +42,3 @@ Future improvements for the Tic-tac-toe App include:
 
 ### License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-![image](https://github.com/marialee222/tictactoe/assets/150623001/40654d32-83d4-4a05-be11-8f8bb278ac76)
