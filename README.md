@@ -31,8 +31,9 @@ To run the Tic-tac-toe App on your machine, follow these steps:
 	
 ## Roadmap of Future Improvements
 Future improvements for the Tic-tac-toe App include:
- - Enhancing the user interface with animations and visual effects.
- - Adding a scoreboard to track players' wins and losses.   
+ - Highlighting the Winning Line -- When a player wins the game, the app can animate the winning line by changing its color, or adding a glowing effect to make it stand out.
+ - Transitions Between Game States -- When transitioning between different game states, such as, starting a new game, displaying the winner, or showing the game board, smooth transitions can be added to create a seamless experience (fading, sliding, or scaling elements on the screen).
+ 
 
 :star: Feel free to contribute ideas or collaborate on these enhancements! :star:
 
