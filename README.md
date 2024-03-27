@@ -1,8 +1,8 @@
 #### MIT xPRO Fullstack Development
-## Tictactoe App
+## Tic-tac-toe App
 
 ## Description 
-The Tictactoe App is a user-friendly platform for playing the classic game of Tic-tac-toe. It allows users to compete against each other or play against the computer. The app is built using JavaScript with the React library and CSS for styling.
+The Tic-tac-toe App is a user-friendly platform for playing the classic game of Tic-tac-toe. It allows users to compete against each other or play against the computer. The app is built using JavaScript with the React library and CSS for styling.
 
 Functionality:
  - Users can start a new game of Tic-tac-toe.
@@ -14,9 +14,9 @@ Functionality:
 
 
 ## How to Run
-To run the Tictactoe App on your machine, follow these steps: 
+To run the Tic-tac-toe App on your machine, follow these steps: 
 
-	1. First, clone the tictactoe repository to your local machine using the following command:
+	1. First, clone the tic-tac-toe repository to your local machine using the following command:
 	 - git clone https://github.com/marialee222/tictactoe.git
 
 	2. Navigate to the directory where you cloned the Tictactoe repository in your terminal.
@@ -33,7 +33,7 @@ To run the Tictactoe App on your machine, follow these steps:
 	6. Play Tic-tac-toe!
 	
 ## Roadmap of Future Improvements
-Future improvements for the Tictactoe App include:
+Future improvements for the Tic-tac-toe App include:
  - Implementing an AI opponent with different difficulty levels.
  - Enhancing the user interface with animations and visual effects.
  - Adding a scoreboard to track players' wins and losses.   
