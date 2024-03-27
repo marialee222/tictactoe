@@ -10,9 +10,6 @@ Functionality:
  - The app automatically detects and displays the winner or a draw.
  - Users can restart the game at any time.
 
-<img width="
-
-
 ## How to Run
 To run the Tic-tac-toe App on your machine, follow these steps: 
 
