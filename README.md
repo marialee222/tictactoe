@@ -34,7 +34,6 @@ To run the Tic-tac-toe App on your machine, follow these steps:
 	
 ## Roadmap of Future Improvements
 Future improvements for the Tic-tac-toe App include:
- - Implementing an AI opponent with different difficulty levels.
  - Enhancing the user interface with animations and visual effects.
  - Adding a scoreboard to track players' wins and losses.   
 
