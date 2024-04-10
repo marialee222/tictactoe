@@ -109,7 +109,7 @@ const checkForWinner = (gameState) => {
     if (item.player == 1) return item;
   });
   px = px.map((item) => item.id);
-  if (p0 != null && px != null) {
+  if (p0 !== null && px !== null) {
     var win0 = win.filter((item) => {
       return isSuperset(new Set(p0), new Set(item));
     });
