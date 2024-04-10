@@ -3,6 +3,7 @@
 
 ## Description 
 The Tic-tac-toe App is a user-friendly platform for playing the classic game of Tic-tac-toe. It allows users to compete against each other or play against the computer. The app is built using JavaScript with the React library and CSS for styling.
+<img src="https://raw.githubusercontent.com/marialee222/tictactoe/main/tictactoe1.png" width="800" height="400">
 
 Functionality:
  - Users can start a new game of Tic-tac-toe.
