@@ -1,3 +1,6 @@
+import React from 'react'; // Import React
+import ReactDOM from 'react-dom'; // Import ReactDOM
+
 const Board = () => {
   // 1st player is X ie 1
   // State keeps track of next player and gameState
@@ -7,7 +10,7 @@ const Board = () => {
 
   // Part 1 step 1 code goes here
   // Use conditional logic to set a variable to either 'Player O' or  'Player X'
-  let playerTurn = `Next Player: ${player == '0' ? 'Player O' : 'Player X'}`;
+  let playerTurn = `Next Player: ${player === '0' ? 'Player O' : 'Player X'}`;
 
   console.log(`We hav a winner ${status}`);
 
@@ -48,20 +51,13 @@ const Board = () => {
 
 const Square = ({ takeTurn, id }) => {
   const mark = ['O', 'X', '+'];
-  // id is the square's number
-  // filled tells you if square has been filled
-  // tik tells you symbol in square (same as player)
-  // You call takeTurn to tell Parent that the square has been filled
-  const [filled, setFilled] = React.useState(false);
   const [tik, setTik] = React.useState(2);
 
   return (
     <button
-      // Part 2: update the return statement below to add css classes
-      className={tik == '1' ? 'red' : 'white'}
+      className={tik === '1' ? 'red' : 'white'}
       onClick={() => {
         setTik(takeTurn(id));
-        setFilled(true);
         console.log(`Square: ${id} filled by player : ${tik}`);
       }}
     >
@@ -77,6 +73,8 @@ const Game = () => {
     </div>
   );
 };
+
+
 
 // Checking for Winner takes a bit of work
 // Use JavaScript Sets to check players choices
@@ -97,9 +95,7 @@ const win = [
   [2, 4, 6],
 ];
 
-const checkPlayerTurn = (gameState) => {
-  return gameState.player;
-};
+
 
 const checkForWinner = (gameState) => {
   // get array of box id's
@@ -134,6 +130,13 @@ function isSuperset(set, subset) {
   }
   return true;
 }
+
+
+
+
+// Export the Game component as default
+export default Game;
+
 
 // ========================================
 
