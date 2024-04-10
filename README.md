@@ -14,18 +14,18 @@ Functionality:
 To run the Tic-tac-toe App on your machine, follow these steps: 
 
 	1. First, clone the tic-tac-toe repository to your local machine using the following command:
-	 - git clone https://github.com/marialee222/tictactoe.git
+	- git clone https://github.com/marialee222/tictactoe.git
 
 	2. Navigate to the directory where you cloned the Tictactoe repository in your terminal.
  
 	3. Install the necessary dependencies by running:
-	 - npm install 
+	- npm install 
 
 	4. Start the development server by running:
-	 - npm start
+ 	- npm start
 
 	5. Once the development server starts, open your web browser and navigate to:
-   	 - http://localhost:3000
+ 	- http://localhost:3000
  
 	6. Play Tic-tac-toe!
 	
