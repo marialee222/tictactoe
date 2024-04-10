@@ -102,7 +102,7 @@ const checkForWinner = (gameState) => {
   // can't be a winner in less than 5 turns
   if (gameState.length < 5) return 'No Winner Yet';
   let p0 = gameState.filter((item) => {
-    if (item.player == 0) return item;
+    if (item.player === 0) return item;
   });
   p0 = p0.map((item) => item.id);
   let px = gameState.filter((item) => {
